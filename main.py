@@ -60,7 +60,7 @@ async def root():
                         <label for="radio-1">Перемешать список</label>
                     </div>
 
-                    <input id="button-ok" type="submit">
+                    <input id="button-ok" type="submit" value="Зарандомить">
                 </form>
                 <div class="result"></div>
             </main>
