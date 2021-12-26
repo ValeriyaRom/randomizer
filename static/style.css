@@ -4,7 +4,15 @@
   max-width: 40%;
   margin: 5px auto;
 }
+#add-input {
+  width: 7%;
+}
+#button-ok {
+  width: 20%;
+}
 #button-ok, #add-input {
+  border: 0;
+  margin: 10px auto;
   font-weight: 700;
   color: white;
   text-decoration: none;
