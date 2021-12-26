@@ -52,16 +52,13 @@ async def root():
                     <button id="add-input" class="add-input">+</button>
                     
                     <div class="form_toggle-item item-1 radio-label">
-                    <label class="radio-label" for="radio-1">
+                    <div class="form_toggle-item item-1">
                         <input name="radio-1" id="form-radio-1" type="radio" value="select" checked> 
-                        <span class='inner-label'>Выбрать случайный элемент</span>
-                    </label>
+                        <label for="radio-1">Выбрать случайный элемент</label>
                     </div>
-                    <div class="form_toggle-item item-2 radio-label">
-                        <label for="radio-1">
+                    <div class="form_toggle-item item-2">
                         <input name="radio-1" id="form-radio-2" type="radio" value="on">
-                        <span class='inner-label'>Перемешать список</span>
-                        </label>
+                        <label for="radio-1">Перемешать список</label>
                     </div>
                     <input id="button-ok" type="submit" value="Зарандомить">
                 </form>
