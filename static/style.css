@@ -4,7 +4,7 @@
   max-width: 40%;
   margin: 5px auto;
 }
-#button_ok {
+#button-ok, #add-input {
   font-weight: 700;
   color: white;
   text-decoration: none;
@@ -14,8 +14,8 @@
   box-shadow: 0 -3px rgb(53,167,110) inset;
   transition: 0.2s;
 } 
-#button_ok:hover { background: rgb(53, 167, 110); }
-#button_ok:active {
+#button-ok:hover, #add-input:hover { background: rgb(53, 167, 110); }
+#button-ok:active, #add-input:active {
   background: rgb(33,147,90);
   box-shadow: 0 3px rgb(33,147,90) inset;
 }
