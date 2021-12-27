@@ -50,8 +50,6 @@ async def root():
                 <form id="form" action="">
                     <input class="random-list-elem" type="text">
                     <button id="add-input" class="add-input">+</button>
-                    
-                    <div class="form_toggle-item item-1 radio-label">
                     <div class="form_toggle-item item-1">
                         <input name="radio-1" id="form-radio-1" type="radio" value="select" checked> 
                         <label for="radio-1">Выбрать случайный элемент</label>
