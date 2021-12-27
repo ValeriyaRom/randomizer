@@ -1,3 +1,10 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.result, .item1, .item2 {
+  text-align: center;
+}
+
 #form {
   display: flex;
   flex-direction: column;
@@ -26,10 +33,4 @@
 #button-ok:active, #add-input:active {
   background: rgb(33,147,90);
   box-shadow: 0 3px rgb(33,147,90) inset;
-}
-.result, .item1, .item2 {
-  text-align: center;
-}
-body {
-  font-family: 'Roboto Condensed', sans-serif;
 }
